@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans text-gray-800 bg-gray-50;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-medium rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-secondary-500;
+  }
+  
+  .btn-accent {
+    @apply bg-accent-500 text-dark hover:bg-accent-600 focus:ring-accent-400;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-500 text-primary-600 hover:bg-primary-50 focus:ring-primary-500;
+  }
+  
+  .btn-outline-white {
+    @apply border-2 border-white text-white hover:bg-white/10 focus:ring-white;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold font-display mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-xl text-gray-600 mb-8 max-w-3xl mx-auto;
+  }
+  
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-md;
+  }
+  
+  /* Blog specific styles */
+  .prose {
+    @apply text-gray-800;
+  }
+  
+  .prose h2 {
+    @apply text-2xl font-bold mt-8 mb-4 font-display text-primary-700;
+  }
+  
+  .prose h3 {
+    @apply text-xl font-bold mt-6 mb-3 text-primary-600;
+  }
+  
+  .prose p {
+    @apply mb-4 leading-relaxed;
+  }
+  
+  .prose ul {
+    @apply mb-4 list-disc pl-5;
+  }
+  
+  .prose ol {
+    @apply mb-4 list-decimal pl-5;
+  }
+  
+  .prose li {
+    @apply mb-2;
+  }
+  
+  .prose a {
+    @apply text-secondary-700 hover:text-secondary-800 transition-colors;
+  }
+  
+  .prose blockquote {
+    @apply pl-4 border-l-4 border-primary-200 italic text-gray-600 my-4;
+  }
+}
+
+/* Animation for cookie consent */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}

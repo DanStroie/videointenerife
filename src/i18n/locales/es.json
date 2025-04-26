@@ -1,0 +1,251 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "blog": "Blog"
+  },
+  "language": {
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "home": {
+    "hero": {
+      "title": "Producción de Video en Tenerife",
+      "subtitle": "Creando videos que captan atención y aumentan las ventas.",
+      "cta": "Solicitar Presupuesto"
+    },
+    "intro": {
+      "title": "Producción de Video Profesional para Empresas de Tenerife",
+      "description": "Ayudamos a negocios locales a aumentar su engagement, atraer clientes y contar su historia con precisión cinematográfica."
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "description": "Desde reels individuales hasta estrategias de contenido completas, creamos videos que hacen destacar a tu negocio.",
+      "cta": "Ver Todos los Servicios"
+    },
+    "portfolio": {
+      "title": "Nuestro Trabajo",
+      "description": "Mira cómo captamos atención y generamos resultados.",
+      "cta": "Ver Portafolio"
+    },
+    "testimonials": {
+      "title": "Lo Que Dicen Nuestros Clientes",
+      "cta": "Trabaja con Nosotros"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Producción de video profesional adaptada a las necesidades de tu negocio",
+    "description": "Ofrecemos una variedad de paquetes diseñados para hacer brillar a tu negocio en redes sociales. Desde reels individuales hasta estrategias mensuales de contenido, tenemos una solución para cada necesidad y presupuesto.",
+    "packages": {
+      "starter": {
+        "name": "Reel Inicial",
+        "description": "Perfecto para negocios nuevos en marketing de video",
+        "includes": [
+          "1 video corto (hasta 30 seg)",
+          "Edición profesional",
+          "Licencia de música",
+          "Sin revisiones incluidas"
+        ],
+        "price": "€200",
+        "cta": "Reservar Ahora"
+      },
+      "growth": {
+        "name": "Pack de Crecimiento",
+        "description": "Ideal para negocios que buscan establecer presencia en video",
+        "includes": [
+          "3 reels",
+          "Una localización",
+          "2 revisiones incluidas",
+          "Corrección de color básica",
+          "Música con licencia"
+        ],
+        "price": "€500",
+        "cta": "Reservar Ahora"
+      },
+      "visibility": {
+        "name": "Paquete de Visibilidad",
+        "description": "Paquete completo para un crecimiento serio en redes sociales",
+        "includes": [
+          "10 reels",
+          "Sesión de planificación incluida",
+          "Múltiples localizaciones",
+          "Complemento de análisis",
+          "Corrección de color avanzada",
+          "Selección de música personalizada"
+        ],
+        "price": "€1000",
+        "cta": "Reservar Ahora"
+      },
+      "custom": {
+        "name": "Retainer Mensual Personalizado",
+        "description": "Creación de contenido continua para máximo impacto",
+        "includes": [
+          "Creación de contenido recurrente",
+          "Desarrollo de estrategia",
+          "Análisis de rendimiento",
+          "Revisiones ilimitadas",
+          "Programación prioritaria"
+        ],
+        "price": "Negociable",
+        "cta": "Contáctanos"
+      }
+    },
+    "process": {
+      "title": "Nuestro Proceso",
+      "steps": [
+        {
+          "title": "Descubrimiento",
+          "description": "Conocemos tu negocio, objetivos y público objetivo"
+        },
+        {
+          "title": "Planificación",
+          "description": "Desarrollamos una estrategia de contenido y calendario de rodaje"
+        },
+        {
+          "title": "Producción",
+          "description": "Filmación profesional con equipo de última generación"
+        },
+        {
+          "title": "Post-Producción",
+          "description": "Edición experta, corrección de color y diseño de sonido"
+        },
+        {
+          "title": "Entrega",
+          "description": "Videos finales optimizados para plataformas de redes sociales"
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para transformar tu presencia en redes sociales?",
+      "button": "Comenzar"
+    }
+  },
+  "portfolio": {
+    "title": "Nuestro Portafolio",
+    "subtitle": "Ve nuestro trabajo en acción",
+    "description": "Explora nuestra colección de videos creados para empresas en toda Tenerife y más allá.",
+    "filters": {
+      "all": "Todos",
+      "commercial": "Comercial",
+      "corporate": "Corporativo",
+      "interviews": "Entrevistas y Podcasts",
+      "social": "Contenido para Redes Sociales",
+      "product": "Video de Producto",
+      "events": "Eventos",
+      "realestate": "Bienes Raíces"
+    },
+    "cta": {
+      "title": "¿Te gusta lo que ves?",
+      "description": "Creemos algo increíble juntos.",
+      "button": "Contáctanos"
+    }
+  },
+  "about": {
+    "title": "Sobre DSF Media",
+    "subtitle": "Nuestra historia y enfoque",
+    "story": {
+      "title": "Nuestra Historia",
+      "content": "Fundada con pasión por la narración y la excelencia visual, DSF Media trae experiencia internacional en producción cinematográfica a las empresas locales de Tenerife. Con experiencia en producción comercial en Rumanía y más allá, entendemos cómo crear contenido que resuene con las audiencias y genere resultados comerciales reales."
+    },
+    "approach": {
+      "title": "Nuestro Enfoque",
+      "content": "Creemos en la producción cinematográfica ágil, profesional y basada en historias. Cada negocio tiene una historia única que contar, y estamos aquí para ayudarte a contarla de la manera más atractiva posible. Nuestro proceso combina experiencia técnica con visión creativa para producir contenido que destaque en las saturadas redes sociales."
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "description": "Conoce a las mentes creativas detrás de DSF Media"
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "items": [
+        {
+          "title": "Calidad",
+          "description": "Nunca comprometemos la calidad de nuestro trabajo"
+        },
+        {
+          "title": "Creatividad",
+          "description": "Aportamos ideas y perspectivas frescas a cada proyecto"
+        },
+        {
+          "title": "Fiabilidad",
+          "description": "Entregamos a tiempo, siempre"
+        },
+        {
+          "title": "Colaboración",
+          "description": "Trabajamos estrechamente contigo para lograr tu visión"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Creemos algo increíble juntos",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "successMessage": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.",
+      "errorMessage": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo o contáctanos directamente."
+    },
+    "info": {
+      "title": "Ponte en Contacto",
+      "whatsapp": "WhatsApp",
+      "email": "Correo electrónico",
+      "instagram": "Instagram",
+      "address": "La Orotava, Tenerife, España"
+    },
+    "cta": {
+      "title": "¿Listo para empezar?",
+      "description": "Reserva una llamada de consulta gratuita para discutir tu proyecto.",
+      "button": "Reservar una Llamada"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Perspectivas, consejos y tendencias en producción de video",
+    "readMore": "Leer Más",
+    "backToList": "Volver al Blog",
+    "shareArticle": "Compartir este artículo",
+    "relatedArticles": "Artículos Relacionados",
+    "categories": {
+      "all": "Todos",
+      "videoProduction": "Producción de Video",
+      "socialMedia": "Redes Sociales",
+      "marketing": "Marketing",
+      "tenerife": "Tenerife"
+    },
+    "searchPlaceholder": "Buscar artículos...",
+    "noResults": "No se encontraron artículos que coincidan con tu búsqueda."
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados.",
+    "links": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio"
+    }
+  },
+  "cta": {
+    "quote": "Solicitar Presupuesto",
+    "contact": "Contáctanos",
+    "book": "Reservar una Llamada"
+  },
+  "seo": {
+    "defaultTitle": "DSF Media | Producción de Video en Tenerife",
+    "defaultDescription": "Servicios profesionales de producción de video en Tenerife. Creando videos que captan atención y aumentan las ventas.",
+    "defaultKeywords": "producción de video, contenido para redes sociales, Tenerife, reels, videos cinematográficos"
+  },
+  "cookies": {
+    "title": "Utilizamos cookies para mejorar su experiencia",
+    "description": "Utilizamos cookies analíticas para entender cómo interactúa con nuestro sitio y mejorar nuestros servicios.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "settings": "Configuración de Cookies",
+    "privacyLink": "Política de Privacidad"
+  }
+}

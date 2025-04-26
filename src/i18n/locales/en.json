@@ -1,0 +1,251 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "language": {
+    "en": "English",
+    "es": "Spanish"
+  },
+  "home": {
+    "hero": {
+      "title": "Video Production in Tenerife",
+      "subtitle": "Crafting videos that drive attention and boost sales.",
+      "cta": "Request a Quote"
+    },
+    "intro": {
+      "title": "Professional Video Production for Tenerife Businesses",
+      "description": "We help local businesses boost engagement, attract clients, and tell their story with cinematic precision."
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "From single reels to comprehensive content strategies, we create videos that make your business stand out.",
+      "cta": "View All Services"
+    },
+    "portfolio": {
+      "title": "Our Work",
+      "description": "See how we capture attention and drive results.",
+      "cta": "View Portfolio"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "cta": "Work With Us"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional video production tailored to your business needs",
+    "description": "We offer a range of packages designed to help your business shine on social media. From single reels to comprehensive monthly content strategies, we have a solution for every need and budget.",
+    "packages": {
+      "starter": {
+        "name": "Starter Reel",
+        "description": "Perfect for businesses new to video marketing",
+        "includes": [
+          "1 short video (up to 30 sec)",
+          "Professional editing",
+          "Music licensing",
+          "No revisions included"
+        ],
+        "price": "€200",
+        "cta": "Book Now"
+      },
+      "growth": {
+        "name": "Growth Pack",
+        "description": "Ideal for businesses looking to establish a video presence",
+        "includes": [
+          "3 reels",
+          "One location",
+          "2 revisions included",
+          "Basic color grading",
+          "Licensed music"
+        ],
+        "price": "€500",
+        "cta": "Book Now"
+      },
+      "visibility": {
+        "name": "Visibility Bundle",
+        "description": "Comprehensive package for serious social media growth",
+        "includes": [
+          "10 reels",
+          "Planning session included",
+          "Multiple locations",
+          "Analytics add-on",
+          "Advanced color grading",
+          "Custom music selection"
+        ],
+        "price": "€1000",
+        "cta": "Book Now"
+      },
+      "custom": {
+        "name": "Custom Monthly Retainer",
+        "description": "Ongoing content creation for maximum impact",
+        "includes": [
+          "Recurring content creation",
+          "Strategy development",
+          "Performance analysis",
+          "Unlimited revisions",
+          "Priority scheduling"
+        ],
+        "price": "Negotiable",
+        "cta": "Contact Us"
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": [
+        {
+          "title": "Discovery",
+          "description": "We learn about your business, goals, and target audience"
+        },
+        {
+          "title": "Planning",
+          "description": "We develop a content strategy and shooting schedule"
+        },
+        {
+          "title": "Production",
+          "description": "Professional filming with state-of-the-art equipment"
+        },
+        {
+          "title": "Post-Production",
+          "description": "Expert editing, color grading, and sound design"
+        },
+        {
+          "title": "Delivery",
+          "description": "Final videos optimized for social media platforms"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to transform your social media presence?",
+      "button": "Get Started"
+    }
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "See our work in action",
+    "description": "Browse through our collection of videos created for businesses across Tenerife and beyond.",
+    "filters": {
+      "all": "All",
+      "commercial": "Commercial",
+      "corporate": "Corporate",
+      "interviews": "Interviews & Podcasts",
+      "social": "Social Media Content",
+      "product": "Product Video",
+      "events": "Events",
+      "realestate": "Real Estate"
+    },
+    "cta": {
+      "title": "Like what you see?",
+      "description": "Let's create something amazing together.",
+      "button": "Contact Us"
+    }
+  },
+  "about": {
+    "title": "About DSF Media",
+    "subtitle": "Our story and approach",
+    "story": {
+      "title": "Our Story",
+      "content": "Founded with a passion for storytelling and visual excellence, DSF Media brings international filmmaking experience to Tenerife's local businesses. With a background in commercial production across Romania and beyond, we understand how to create content that resonates with audiences and drives real business results."
+    },
+    "approach": {
+      "title": "Our Approach",
+      "content": "We believe in agile, professional, story-driven filmmaking. Every business has a unique story to tell, and we're here to help you tell it in the most engaging way possible. Our process combines technical expertise with creative vision to produce content that stands out in crowded social media feeds."
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "Meet the creative minds behind DSF Media"
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Quality",
+          "description": "We never compromise on the quality of our work"
+        },
+        {
+          "title": "Creativity",
+          "description": "We bring fresh ideas and perspectives to every project"
+        },
+        {
+          "title": "Reliability",
+          "description": "We deliver on time, every time"
+        },
+        {
+          "title": "Collaboration",
+          "description": "We work closely with you to achieve your vision"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Let's create something amazing together",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Message",
+      "successMessage": "Thank you for your message! We will get back to you soon.",
+      "errorMessage": "There was an error sending your message. Please try again or contact us directly."
+    },
+    "info": {
+      "title": "Get in Touch",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "instagram": "Instagram",
+      "address": "La Orotava, Tenerife, Spain"
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "description": "Book a free consultation call to discuss your project.",
+      "button": "Book a Call"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Insights, tips, and trends in video production",
+    "readMore": "Read More",
+    "backToList": "Back to Blog",
+    "shareArticle": "Share this article",
+    "relatedArticles": "Related Articles",
+    "categories": {
+      "all": "All",
+      "videoProduction": "Video Production",
+      "socialMedia": "Social Media",
+      "marketing": "Marketing",
+      "tenerife": "Tenerife"
+    },
+    "searchPlaceholder": "Search articles...",
+    "noResults": "No articles found matching your search."
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "cta": {
+    "quote": "Request a Quote",
+    "contact": "Contact Us",
+    "book": "Book a Call"
+  },
+  "seo": {
+    "defaultTitle": "DSF Media | Video Production in Tenerife",
+    "defaultDescription": "Professional video production services in Tenerife. Crafting videos that drive attention and boost sales.",
+    "defaultKeywords": "video production, social media content, Tenerife, reels, cinematic videos"
+  },
+  "cookies": {
+    "title": "We use cookies to enhance your experience",
+    "description": "We use analytics cookies to understand how you interact with our site and improve our services.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "settings": "Cookie Settings",
+    "privacyLink": "Privacy Policy"
+  }
+}
