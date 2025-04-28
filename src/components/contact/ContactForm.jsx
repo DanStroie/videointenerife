@@ -67,6 +67,14 @@ const ContactForm = () => {
         form_success: true
       });
       
+      // NEW CODE: Track a GA4 event directly
+if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+  window.gtag('event', 'send_message', {
+    event_category: 'contact',
+    event_label: 'Contact Form Submission',
+    value: 1
+  });
+}
       // Show success message
       setFormStatus({
         submitted: true,
