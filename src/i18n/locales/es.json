@@ -24,7 +24,8 @@
     "services": {
       "title": "Nuestros Servicios",
       "description": "Desde reels individuales hasta estrategias de contenido completas, creamos videos que hacen destacar a tu negocio.",
-      "cta": "Ver Todos los Servicios"
+      "cta": "Ver Todos los Servicios",
+      "learnMore": "Más Información"
     },
     "portfolio": {
       "title": "Nuestro Trabajo",
@@ -38,7 +39,103 @@
   },
   "services": {
     "title": "Nuestros Servicios",
-    "subtitle": "Producción de video profesional adaptada a las necesidades de tu negocio",
+    "subtitle": "Producción de video profesional adaptada a tus necesidades",
+    "business": {
+      "title": "Contenido en Video para Empresas",
+      "subtitle": "Producción de video profesional para negocios locales",
+      "description": "Contenido de video personalizado para hacer brillar tu negocio en redes sociales. Desde reels hasta estrategias completas de contenido.",
+      "cta": "Más Información"
+    },
+    "production": {
+      "title": "Servicios de Producción",
+      "subtitle": "Desde dirección y cinematografía hasta permisos, equipo y localizaciones — ayudamos a producciones internacionales a filmar sin problemas en la isla.",
+      "description": "Somos una empresa de servicios de producción dirigida por cineastas con sede en Tenerife, ofreciendo apoyo creativo y logístico completo para rodajes internacionales. Ya seas una marca, director, productor o agencia de contenido, te ayudamos a dar vida a tu visión con eficiencia y experiencia local.",
+      "cta": "Trabajemos Juntos",
+      "bookCall": "Reservar una Llamada",
+      "servicesTitle": "Nuestros Servicios de Producción en Tenerife Incluyen:",
+      "servicesDescription": "Servicios integrales de apoyo a la producción para tu proyecto en Tenerife",
+      "services": {
+        "crew": {
+          "title": "Coordinación de Equipo y Talento Local",
+          "description": "DOP, asistentes de cámara, estilistas, maquilladores, PAs."
+        },
+        "creative": {
+          "title": "Cinematografía y Dirección",
+          "description": "Ejecución creativa y técnica completa dirigida por nuestro DOP interno."
+        },
+        "locations": {
+          "title": "Búsqueda de Localizaciones y Permisos",
+          "description": "Ayudamos a encontrar impresionantes escenarios isleños y gestionamos procesos administrativos."
+        },
+        "equipment": {
+          "title": "Alquiler de Equipos y Paquetes de Cámara",
+          "description": "Acceso a Arri, Sony, drones, gimbals, equipo de iluminación."
+        },
+        "management": {
+          "title": "Gestión de Producción",
+          "description": "Programación, hojas de llamado, presupuestos y logística en terreno."
+        },
+        "transport": {
+          "title": "Transporte y Alojamiento",
+          "description": "Coordinación de viajes locales para elenco/equipo."
+        },
+        "fixers": {
+          "title": "Servicios de Fixer",
+          "description": "Enlace local para equipos extranjeros no familiarizados con la isla y sus regulaciones."
+        },
+        "post": {
+          "title": "Alianzas de Post-Producción",
+          "description": "Si es necesario, podemos conectarte con editores, diseñadores de sonido e instalaciones de post-producción de confianza."
+        }
+      },
+      "whyTenerife": {
+        "title": "¿Por Qué Filmar en Tenerife?",
+        "items": [
+          {
+            "title": "300+ Días de Sol",
+            "description": "Condiciones climáticas perfectas para filmar todo el año"
+          },
+          {
+            "title": "Paisajes Diversos",
+            "description": "Playas, bosques, volcanes, escenas urbanas"
+          },
+          {
+            "title": "Fácil Acceso",
+            "description": "Fácil acceso desde toda Europa"
+          },
+          {
+            "title": "Rentable",
+            "description": "El apoyo local puede ahorrarte tiempo, presupuesto y estrés"
+          }
+        ]
+      },
+      "whyUs": {
+        "title": "¿Por Qué Elegirnos?",
+        "description": "Lo que nos hace tu socio ideal de producción en Tenerife",
+        "reasons": [
+          {
+            "title": "Experiencia Internacional",
+            "description": "Más de 8 años de experiencia en flujos de trabajo de producción internacional."
+          },
+          {
+            "title": "Visión Creativa",
+            "description": "Fuerte visión creativa combinada con conocimiento local"
+          },
+          {
+            "title": "Equipo Profesional",
+            "description": "Equipo confiable y profesional con pasión por contar historias"
+          },
+          {
+            "title": "Comunicación Clara",
+            "description": "Comunicación transparente y paquetes flexibles"
+          }
+        ]
+      },
+      "readyToStart": {
+        "title": "¿Listo para Traer tu Producción a Tenerife?",
+        "description": "Hablemos de tu proyecto y hagámoslo realidad"
+      }
+    },
     "description": "Ofrecemos una variedad de paquetes diseñados para hacer brillar a tu negocio en redes sociales. Desde reels individuales hasta estrategias mensuales de contenido, tenemos una solución para cada necesidad y presupuesto.",
     "packages": {
       "starter": {

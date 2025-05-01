@@ -4,6 +4,8 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import ServicesPage from './pages/ServicesPage';
+import BusinessServicesPage from './pages/BusinessServicesPage';
+import ProductionServicingPage from './pages/ProductionServicingPage';
 import PortfolioPage from './pages/PortfolioPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -33,6 +35,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/services/business" element={<BusinessServicesPage />} />
+          <Route path="/services/production" element={<ProductionServicingPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />

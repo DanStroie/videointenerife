@@ -94,7 +94,7 @@ const blogPosts = [
     author: "Dan Stroie",
     authorRole: "Producer & DOP",
     authorImage: "https://imgur.com/mIjduq9.jpg",
-    publishDate: "2025-07-15",
+    publishDate: "2025-04-25",
     categories: ["socialMedia", "videoProduction", "marketing"],
     featuredImage: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
     metaTitle: "Top Social Media Video Trends for 2025 | DSF Media",
@@ -185,26 +185,26 @@ const blogPosts = [
       
       <p>Esto hace que el marketing en video sea particularmente valioso para las empresas de Tenerife que buscan atraer a visitantes internacionales. Mientras que tu sitio web podría necesitar múltiples versiones de idioma, un video convincente puede comunicar tu esencia a los espectadores independientemente de su idioma nativo.</p>
       
-      <h3>Construyendo Confianza a Través de la Autenticidad</h3>
+      <h3>Building Trust Through Authenticity</h3>
       
-      <p>En la era de los sitios de reseñas y la prueba social, los viajeros son cada vez más cautelosos con el marketing engañoso. El contenido en video permite a los clientes potenciales ver tu negocio de manera auténtica, construyendo confianza incluso antes de que lleguen.</p>
+      <p>In the age of review sites and social proof, travelers are increasingly wary of misleading marketing. Video content allows potential customers to see your business authentically, building trust before they even arrive.</p>
       
-      <p>Para las empresas de Tenerife, esta transparencia es particularmente importante. Cuando los visitantes viajan miles de kilómetros y gastan sumas significativas en sus vacaciones, quieren la seguridad de que lo que están reservando cumple con las expectativas. El video proporciona esta seguridad de una manera que construye confianza y reduce la vacilación en la reserva.</p>
+      <p>For Tenerife businesses, this transparency is particularly important. When visitors are traveling thousands of kilometers and spending significant sums on their holiday, they want reassurance that what they're booking lives up to expectations. Video provides this reassurance in a way that builds confidence and reduces booking hesitation.</p>
       
-      <h2>Comenzando con el Marketing en Video</h2>
+      <h2>Getting Started with Video Marketing</h2>
       
-      <p>Muchos propietarios de negocios en Tenerife reconocen la importancia del marketing en video, pero no están seguros de cómo comenzar o cómo crear contenido que realmente destaque en un panorama digital saturado.</p>
+      <p>Many Tenerife business owners recognize the importance of video marketing but are unsure how to begin or how to create content that truly stands out in a crowded digital landscape.</p>
       
-      <p>La clave es comenzar con una estrategia clara que se alinee con los objetivos de tu negocio, ya sea aumentar las reservas directas, atraer a un tipo específico de cliente, o destacar nuevas ofertas. A partir de ahí, la producción de video profesional puede ayudar a traducir esa estrategia en contenido convincente que impulse resultados comerciales reales.</p>
+      <p>The key is to start with a clear strategy that aligns with your business goals, whether that's increasing direct bookings, attracting a specific type of customer, or highlighting new offerings. From there, professional video production can help translate that strategy into compelling content that drives real business results.</p>
       
-      <p>En DSF Media, nos especializamos en ayudar a las empresas de Tenerife a contar sus historias únicas a través de contenido de video cinematográfico optimizado para impacto en redes sociales. Desde reels de exhibición individuales hasta estrategias de contenido integrales, creamos videos que captan la atención y generan reservas.</p>
+      <p>At DSF Media, we specialize in helping Tenerife businesses tell their unique stories through cinematic video content optimized for social media impact. From single showcase reels to comprehensive content strategies, we create videos that capture attention and drive bookings.</p>
       
-      <p>¿Listo para elevar tu negocio en Tenerife con marketing en video profesional? Contáctanos para discutir cómo podemos ayudarte a destacar en 2025 y más allá.</p>
+      <p>Ready to elevate your Tenerife business with professional video marketing? Contact us to discuss how we can help you stand out in 2025 and beyond.</p>
     `,
     author: "Yuliia Andrianova",
     authorRole: "Scriptwriter",
     authorImage: "https://imgur.com/XLNicES.jpg",
-    publishDate: "2025-06-22",
+    publishDate: "2025-03-15",
     categories: ["tenerife", "marketing", "videoProduction"],
     featuredImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
     metaTitle: "Why Tenerife Businesses Need Video Marketing in 2025 | DSF Media",
@@ -404,7 +404,7 @@ const blogPosts = [
     author: "Dan Stroie",
     authorRole: "Producer & DOP",
     authorImage: "https://imgur.com/mIjduq9.jpg",
-    publishDate: "2025-05-18",
+    publishDate: "2025-02-20",
     categories: ["videoProduction", "marketing", "tenerife"],
     featuredImage: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
     metaTitle: "Creating Authentic Content for Hospitality Businesses | DSF Media",
@@ -623,14 +623,14 @@ const blogPosts = [
       <ul>
         <li>Duración óptima: 15-60 segundos</li>
         <li>Adopta tendencias y desafíos relevantes para tu negocio</li>
-        <li>Un enfoque más casual y auténtico a menudo tiene mejor rendimiento</li>
+        <li>More casual, authentic approach often performs better</li>
       </ul>
       
       <h3>YouTube Shorts</h3>
       <ul>
-        <li>Duración óptima: Hasta 60 segundos</li>
-        <li>Puede ser más informativo/educativo que otras plataformas</li>
-        <li>Bueno para dirigir tráfico a contenido más largo de YouTube</li>
+        <li>Optimal length: Up to 60 seconds</li>
+        <li>Can be more informational/educational than other platforms</li>
+        <li>Good for driving traffic to longer YouTube content</li>
       </ul>
       
       <h2>Implementando Video Vertical para Tu Negocio en Tenerife</h2>
@@ -648,7 +648,7 @@ const blogPosts = [
     author: "Yuliia Andrianova",
     authorRole: "Scriptwriter",
     authorImage: "https://imgur.com/XLNicES.jpg",
-    publishDate: "2025-04-10",
+    publishDate: "2025-01-10",
     categories: ["videoProduction", "socialMedia"],
     featuredImage: "https://imgur.com/kF75PcL.jpg",
     metaTitle: "Essential Vertical Video Production Tips for Social Media | DSF Media",

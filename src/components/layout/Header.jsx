@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../ui/LanguageSwitcher';
 
@@ -7,6 +7,14 @@ const Header = () => {
   const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [showServicesDropdown, setShowServicesDropdown] = useState(false);
+  const location = useLocation();
+
+  // Close menu when route changes
+  useEffect(() => {
+    setIsMenuOpen(false);
+    setShowServicesDropdown(false);
+  }, [location]);
 
   // Handle scroll event to change header style
   useEffect(() => {
@@ -24,6 +32,7 @@ const Header = () => {
 
   const closeMenu = () => {
     setIsMenuOpen(false);
+    setShowServicesDropdown(false);
   };
 
   return (
@@ -60,20 +69,56 @@ const Header = () => {
           >
             {t('navigation.home')}
           </NavLink>
-          <NavLink 
-            to="/services" 
-            className={({ isActive }) => 
-              `font-medium transition-colors ${
-                isActive 
-                  ? 'text-secondary-600' 
-                  : isScrolled 
-                    ? 'text-dark hover:text-primary-600' 
-                    : 'text-white hover:text-primary-200'
-              }`
-            }
+          
+          {/* Services with Dropdown */}
+          <div 
+            className="relative group"
           >
-            {t('navigation.services')}
-          </NavLink>
+            <NavLink 
+              to="/services" 
+              className={({ isActive }) => 
+                `font-medium transition-colors flex items-center ${
+                  isActive 
+                    ? 'text-secondary-600' 
+                    : isScrolled 
+                      ? 'text-dark hover:text-primary-600' 
+                      : 'text-white hover:text-primary-200'
+                }`
+              }
+            >
+              <span>{t('navigation.services')}</span>
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                className="h-4 w-4 ml-1" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </NavLink>
+            
+            {/* Dropdown Menu */}
+            <div className="absolute left-0 mt-2 w-64 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="py-1" role="menu" aria-orientation="vertical">
+                <Link
+                  to="/services/business"
+                  className="block px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+                  role="menuitem"
+                >
+                  {t('services.business.title')}
+                </Link>
+                <Link
+                  to="/services/production"
+                  className="block px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+                  role="menuitem"
+                >
+                  {t('services.production.title')}
+                </Link>
+              </div>
+            </div>
+          </div>
+
           <NavLink 
             to="/portfolio" 
             className={({ isActive }) => 

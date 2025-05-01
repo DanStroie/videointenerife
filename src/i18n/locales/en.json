@@ -24,7 +24,8 @@
     "services": {
       "title": "Our Services",
       "description": "From single reels to comprehensive content strategies, we create videos that make your business stand out.",
-      "cta": "View All Services"
+      "cta": "View All Services",
+      "learnMore": "Learn More"
     },
     "portfolio": {
       "title": "Our Work",
@@ -38,7 +39,103 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Professional video production tailored to your business needs",
+    "subtitle": "Professional video production tailored to your needs",
+    "business": {
+      "title": "Video Content for Businesses",
+      "subtitle": "Professional video production for local businesses",
+      "description": "Tailored video content to help your business shine on social media. From reels to comprehensive content strategies.",
+      "cta": "Learn More"
+    },
+    "production": {
+      "title": "Video Production Servicing",
+      "subtitle": "From directing and cinematography to permits, crew, and locations — we help international productions shoot smoothly on the island.",
+      "description": "We are a filmmaker-led production services company based in Tenerife, offering full creative and logistical support for international shoots. Whether you're a brand, director, producer, or content agency, we help bring your vision to life with efficiency and local expertise.",
+      "cta": "Let's Work Together",
+      "bookCall": "Book a Call",
+      "servicesTitle": "Our Production Services in Tenerife Include:",
+      "servicesDescription": "Comprehensive production support services for your project in Tenerife",
+      "services": {
+        "crew": {
+          "title": "Local Crew & Talent Coordination",
+          "description": "DOP, camera assistants, stylists, makeup artists, PAs."
+        },
+        "creative": {
+          "title": "Cinematography & Directing",
+          "description": "Full creative and technical execution led by our in-house DOP."
+        },
+        "locations": {
+          "title": "Location Scouting & Permits",
+          "description": "We help find stunning island backdrops and handle administrative processes."
+        },
+        "equipment": {
+          "title": "Equipment Rental & Camera Packages",
+          "description": "Access to Arri, Sony, drones, gimbals, lighting gear."
+        },
+        "management": {
+          "title": "Production Management",
+          "description": "Scheduling, call sheets, budgeting, and on-ground logistics."
+        },
+        "transport": {
+          "title": "Transportation & Accommodation",
+          "description": "Local travel coordination for cast/crew."
+        },
+        "fixers": {
+          "title": "Fixer Services",
+          "description": "Local liaison for foreign teams unfamiliar with the island and its regulations."
+        },
+        "post": {
+          "title": "Post-Production Partnerships",
+          "description": "If needed, we can connect you with trusted editors, sound designers, and post facilities."
+        }
+      },
+      "whyTenerife": {
+        "title": "Why Shoot in Tenerife?",
+        "items": [
+          {
+            "title": "300+ Days of Sunshine",
+            "description": "Perfect weather conditions for filming year-round"
+          },
+          {
+            "title": "Diverse Landscapes",
+            "description": "Beaches, forests, volcanoes, urban scenes"
+          },
+          {
+            "title": "Easy Access",
+            "description": "Easy access from all Europe"
+          },
+          {
+            "title": "Cost-Effective",
+            "description": "Local support can save you time, budget, and stress"
+          }
+        ]
+      },
+      "whyUs": {
+        "title": "Why Choose Us?",
+        "description": "What makes us your ideal production partner in Tenerife",
+        "reasons": [
+          {
+            "title": "International Experience",
+            "description": "Over 8 years of experience in international production workflows."
+          },
+          {
+            "title": "Creative Vision",
+            "description": "Strong creative vision paired with local knowledge"
+          },
+          {
+            "title": "Professional Team",
+            "description": "Reliable, professional team with passion for storytelling"
+          },
+          {
+            "title": "Clear Communication",
+            "description": "Transparent communication and flexible packages"
+          }
+        ]
+      },
+      "readyToStart": {
+        "title": "Ready to Bring Your Production to Tenerife?",
+        "description": "Let's discuss your project and make it happen"
+      }
+    },
     "description": "We offer a range of packages designed to help your business shine on social media. From single reels to comprehensive monthly content strategies, we have a solution for every need and budget.",
     "packages": {
       "starter": {
