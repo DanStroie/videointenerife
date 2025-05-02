@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { trackEvent } from '../../utils/analytics';
 
@@ -17,6 +17,18 @@ const ContactForm = () => {
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Load reCAPTCHA v3 script
+  useEffect(() => {
+    const loadRecaptcha = () => {
+      const script = document.createElement('script');
+      script.src = 'https://www.google.com/recaptcha/api.js?render=6LcejSsrAAAAAI_hJKBYzTKTZ2LTlo4McwI6Zhpk';
+      script.async = true;
+      script.defer = true;
+      document.head.appendChild(script);
+    };
+    loadRecaptcha();
+  }, []);
 
   // Form intro translations
   const formIntro = {
@@ -47,14 +59,20 @@ const ContactForm = () => {
     setIsSubmitting(true);
     
     try {
-      // FormSpark submission
+      // Execute reCAPTCHA with action
+      const token = await window.grecaptcha.execute('6LcejSsrAAAAAI_hJKBYzTKTZ2LTlo4McwI6Zhpk', {action: 'submit_form'});
+      
+      // FormSpark submission with reCAPTCHA
       const response = await fetch('https://submit-form.com/yfCeTvbHe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({
+          ...formData,
+          recaptcha: token
+        })
       });
       
       if (!response.ok) {
@@ -67,14 +85,15 @@ const ContactForm = () => {
         form_success: true
       });
       
-      // NEW CODE: Track a GA4 event directly
-if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-  window.gtag('event', 'send_message', {
-    event_category: 'contact',
-    event_label: 'Contact Form Submission',
-    value: 1
-  });
-}
+      // Track a GA4 event directly
+      if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+        window.gtag('event', 'send_message', {
+          event_category: 'contact',
+          event_label: 'Contact Form Submission',
+          value: 1
+        });
+      }
+
       // Show success message
       setFormStatus({
         submitted: true,
@@ -207,6 +226,12 @@ if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
               placeholder={t('contact.form.message')}
             ></textarea>
           </div>
+          
+          {formStatus.submitted && !formStatus.success && (
+            <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg text-red-600">
+              {formStatus.message}
+            </div>
+          )}
           
           <button 
             type="submit" 
